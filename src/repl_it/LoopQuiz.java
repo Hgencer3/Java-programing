@@ -1,6 +1,7 @@
 package repl_it;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
@@ -8,41 +9,45 @@ import java.util.Scanner;
 public class LoopQuiz {
     public static void main(String[] args) {
 
-        String[] things = {"house", "shed", "slide", "zebra", "park", "garden"};
+        ArrayList<Integer> numsOne=new ArrayList<>();
+        numsOne.addAll(Arrays.asList(4,1,8,-42,2,10));
+        ArrayList<Integer> numsTwo=new ArrayList<>();
 
-        for (String s : things) {
-            switch (s.charAt(1)) {
-                case 'h':
-                    System.out.println(1);
+            for (int each:numsOne)
+                switch (each){
+                    case 1:numsTwo.add(1);
+                    case 5:numsTwo.add(50);
                     break;
-                case 'a':
-                    System.out.println(2);
-                case 's':
-                    System.out.println(3);
+                    case 4:
+                        break;
+                    case 8:numsTwo.remove(0);
                     break;
-                case 'o':
-                default:
-                    System.out.println(4);
-                case 'p':
-                    System.out.println(5);
+                    case 10:
+                    case -42:numsTwo.add(1,0);
                     break;
-                case 'z':
-                    System.out.println(6);
-                    ;
-                case 'l':
+                    case 55:numsTwo.add(105);
+                    break;
+                    case 2:
+                        numsTwo.add(20_000);
+                        break;
+                    default:
+                        numsTwo.add(null);
 
-                    break;
-                case 'g':
-                    System.out.println(7);
-                    break;
 
-            }
-        }
+
+                }
+        System.out.println(numsTwo);
+
+    }
     }
 
 
 
-    }
+
+
+
+
+
 
 
 
