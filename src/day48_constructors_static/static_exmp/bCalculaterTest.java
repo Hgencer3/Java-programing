@@ -5,7 +5,7 @@ public class bCalculaterTest {
         aCalculater.add(3,5);
 
         aCalculater calcObject=new aCalculater();
-        calcObject.multply(2,4);
+        calcObject.multiply(2,4);
         //static method can olso be called using an object
         calcObject.add(10,45);
     }
