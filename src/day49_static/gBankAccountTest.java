@@ -1,4 +1,4 @@
-package day48_static;
+package day49_static;
 
 public class gBankAccountTest {
     public static void main(String[] args) {

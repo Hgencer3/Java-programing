@@ -1,4 +1,4 @@
-package day48_static;
+package day49_static;
 
 public class fMyBankAccount {
     static double balance=500;
