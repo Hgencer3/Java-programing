@@ -15,7 +15,7 @@ public class Bed {
         count+=s.length();
     }
     class Test{
-        public static void main(String[] args) {
+        public  void main(String[] args) {
             new Bed();
             Bed a=new Bed("word");
         }
