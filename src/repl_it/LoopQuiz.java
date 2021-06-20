@@ -9,12 +9,18 @@ import java.util.Scanner;
 
 public class LoopQuiz {
 
-int num=10;
+    boolean canBounce;
+    String color;
 
     public static void main(String[] args) {
-        Test obj1=new Test();
+        LoopQuiz ball=new LoopQuiz();
+        String color;
+        color="Red";
+        System.out.println(ball.color);
     }
+
     }
+
 
 
 
