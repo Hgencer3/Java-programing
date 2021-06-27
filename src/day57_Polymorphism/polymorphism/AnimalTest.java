@@ -1,4 +1,4 @@
-package Day57_Polymorphism.polymorphism;
+package day57_Polymorphism.polymorphism;
 
 import java.util.ArrayList;
 import java.util.List;

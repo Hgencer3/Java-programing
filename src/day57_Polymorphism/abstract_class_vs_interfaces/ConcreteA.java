@@ -1,4 +1,4 @@
-package Day57_Polymorphism.abstract_class_vs_interfaces;
+package day57_Polymorphism.abstract_class_vs_interfaces;
 
 public class ConcreteA extends AbstractA implements InterfaceA, InterfaceB{ // class can extend ONE Abstract class
                                                                             // class can implement multiple interfaces

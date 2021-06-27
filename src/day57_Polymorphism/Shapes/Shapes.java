@@ -1,4 +1,4 @@
-package Day57_Polymorphism.Shapes;
+package day57_Polymorphism.Shapes;
 
 public abstract class Shapes {
 

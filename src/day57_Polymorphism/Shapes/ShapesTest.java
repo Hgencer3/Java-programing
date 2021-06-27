@@ -1,4 +1,4 @@
-package Day57_Polymorphism.Shapes;
+package day57_Polymorphism.Shapes;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Day57_Polymorphism.polymorphism;
+package day57_Polymorphism.polymorphism;
 
 public class Cat extends Animal{
     @Override

@@ -1,4 +1,4 @@
-package Day57_Polymorphism.abstract_class_vs_interfaces;
+package day57_Polymorphism.abstract_class_vs_interfaces;
 
 public abstract class AbstractA { //Abstract class can have non abstract, abstract and static method
 
