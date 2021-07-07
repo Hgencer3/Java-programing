@@ -9,17 +9,31 @@ import java.util.Scanner;
 
 public class LoopQuiz {
 
-    boolean canBounce;
-    String color;
+
 
     public static void main(String[] args) {
-        LoopQuiz ball=new LoopQuiz();
-        String color;
-        color="Red";
-        System.out.println(ball.color);
-    }
 
-    }
+        try {
+            String satr = "java";
+            System.out.println(satr.charAt(20));
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("a");
+        } catch (NullPointerException e) {
+            System.out.println("b");
+        }
+        try {
+            String satr = "java";
+            System.out.println(satr.charAt(20));
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("a");
+        } catch (NullPointerException e) {
+            System.out.println("b");
+        } finally {
+            System.out.println("c");
+
+        }
+
+    }}
 
 
 
